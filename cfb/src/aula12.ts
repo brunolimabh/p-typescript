@@ -1,8 +1,8 @@
-function teste():void {
+function teste1():void {
     console.log("teste");
 }
 
-teste();
+teste1();
 
 function logar(user:string, pwd:string):void {
     console.log(`User: ${user}`);
@@ -11,6 +11,6 @@ function logar(user:string, pwd:string):void {
 
 logar("bruno","123");
 
-function soma(n1:number, n2:number):number{
+function somar(n1:number, n2:number):number{
     return n1+n2;
 }
